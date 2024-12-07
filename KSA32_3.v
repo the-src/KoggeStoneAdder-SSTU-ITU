@@ -1,0 +1,47 @@
+module KSA32_3(
+    input wire [31:0] P_i, // 32-bit input operand P_i
+    input wire [31:0] G_i, // 32-bit input operand G_i
+    output wire [31:0] G_o, // 32-bit output G_o
+    output wire [31:0] P_o // 32-bit output P_o
+);
+
+    // No operation for g0 & p0
+    assign G_o[0] = G_i[0];
+    assign P_o[0] = P_i[0];
+
+    // No operation for g1 & p1
+    assign G_o[1] = G_i[1];
+    assign P_o[1] = P_i[1];
+
+    genvar i;
+    generate
+        for (i = 0; i < 2; i = i + 1) 
+        begin : cells_block_1
+            cells cll_inst(
+                .P_i(P_i[i+2]),
+                .P_j(P_i[i]),
+                .G_i(G_i[i+2]),
+                .G_j(G_i[i]),
+                .P_o(P_o[i+2]),
+                .G_o(G_o[i+2])
+            );
+        end
+    endgenerate
+
+    genvar k;
+    generate
+        for (k = 2; k < 30; k = k + 1) 
+        begin : cells_block_2
+            cells cll_inst(
+                .P_i(P_i[k+2]),
+                .P_j(P_i[k]),
+                .G_i(G_i[k+2]),
+                .G_j(G_i[k]),
+                .P_o(P_o[k+2]),
+                .G_o(G_o[k+2])
+            );
+        end
+    endgenerate
+
+
+endmodule
