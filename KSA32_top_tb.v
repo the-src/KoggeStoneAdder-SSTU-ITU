@@ -31,7 +31,7 @@ module KSA32_tb;
         // Open stimulus file and output file
         fd_in = $fopen("test_vectors.txt", "r");
         // Full path to the file is required for writing the results
-        fd_out = $fopen("C:\Users\southrain\Documents\Verilog\Project1\codes\results.txt", "w");
+        fd_out = $fopen("results.txt", "w");
         
         if (fd_in == 0) begin
             $display("Error: Could not open input file.");
