@@ -1,5 +1,6 @@
 `timescale 1ns/1ps
 
+(* DONT_TOUCH = "TRUE" *)
 module KSA32_tb;
 
     // Inputs to the DUT
@@ -29,7 +30,8 @@ module KSA32_tb;
     initial begin
         // Open stimulus file and output file
         fd_in = $fopen("test_vectors.txt", "r");
-        fd_out = $fopen("results.txt", "w");
+        // Full path to the file is required for writing the results
+        fd_out = $fopen("C:\Users\southrain\Documents\Verilog\Project1\codes\results.txt", "w");
         
         if (fd_in == 0) begin
             $display("Error: Could not open input file.");
@@ -55,21 +57,11 @@ module KSA32_tb;
             #10;
 
             // Write results to output file and TCL CONSOLE as well
-            $write("A=%0d, B=%0d, SUM_exp=%0d, ", A, B, SUM_exp);
-            $write("SUM=%0d, COUT=%0d, overflow=%0d, ", SUM, COUT, overflow);
-            if (SUM == SUM_exp)
-                $write("status=TRUE\n");
-            else
-                $write("status=FALSE\n");
-            
-            $fwrite(fd_out, "A=\"bin=%b, dec=%0d\"; ", A, A);
-            $fwrite(fd_out, "B=\"bin=%b, dec=%0d\"; ", B, B);
-            $fwrite(fd_out, "SUM=\"bin=%b, dec=%0d\"; ", SUM, SUM);
-            $fwrite(fd_out, "SUM_exp=\"bin=%b, dec=%0d\"; ", SUM_exp, SUM_exp);
-            if (SUM == SUM_exp)
-                $fwrite(fd_out, "status=TRUE\n");
-            else
-                $fwrite(fd_out, "status=FALSE\n");
+            $fdisplay(fd_out, "A=\"hex=%h, dec=%d\"; B=\"hex=%h, dec=%d\"; SUM=\"hex=%h, dec=%d\"; SUM_exp=\"hex=%h, dec=%d\"; status=%s\n",
+                A, A, B, B, SUM, SUM, SUM_exp, SUM_exp, (SUM == SUM_exp) ? "TRUE" : "FALSE");
+            $display("A=\"hex=%h, dec=%d\"; B=\"hex=%h, dec=%d\"; SUM=\"hex=%h, dec=%d\"; SUM_exp=\"hex=%h, dec=%d\"; status=%s",
+                A, A, B, B, SUM, SUM, SUM_exp, SUM_exp, (SUM == SUM_exp) ? "TRUE" : "FALSE");
+
         end
 
         // Close files
