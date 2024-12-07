@@ -1,0 +1,101 @@
+Testbench Results:
+A="hex=1ccd5ca5,dec= 483220645"; B="hex=1a86a509, dec= 445031689"; overflow=0; {COUT=0; SUM="hex=375401ae, dec= 928252334"}; SUM_exp="hex=375401ae, dec= 928252334"; status= TRUE}
+A="hex=dff93bb2,dec=3757652914"; B="hex=32543704, dec= 844379908"; overflow=0; {COUT=1; SUM="hex=124d72b6, dec= 307065526"}; SUM_exp="hex=124d72b6, dec= 307065526"; status= TRUE}
+A="hex=cbb90fff,dec=3417903103"; B="hex=9020a8d6, dec=2418059478"; overflow=1; {COUT=1; SUM="hex=5bd9b8d5, dec=1540995285"}; SUM_exp="hex=5bd9b8d5, dec=1540995285"; status= TRUE}
+A="hex=ac54c514,dec=2891236628"; B="hex=af1a51a9, dec=2937737641"; overflow=1; {COUT=1; SUM="hex=5b6f16bd, dec=1534006973"}; SUM_exp="hex=5b6f16bd, dec=1534006973"; status= TRUE}
+A="hex=bed4668f,dec=3201590927"; B="hex=70c6e006, dec=1892081670"; overflow=0; {COUT=1; SUM="hex=2f9b4695, dec= 798705301"}; SUM_exp="hex=2f9b4695, dec= 798705301"; status= TRUE}
+A="hex=01c99b62,dec=  29989730"; B="hex=27ca92c3, dec= 667587267"; overflow=0; {COUT=0; SUM="hex=29942e25, dec= 697576997"}; SUM_exp="hex=29942e25, dec= 697576997"; status= TRUE}
+A="hex=b57ca827,dec=3044845607"; B="hex=42780cfb, dec=1115163899"; overflow=0; {COUT=0; SUM="hex=f7f4b522, dec=4160009506"}; SUM_exp="hex=f7f4b522, dec=4160009506"; status= TRUE}
+A="hex=ad6f7de9,dec=2909765097"; B="hex=f535c417, dec=4113941527"; overflow=0; {COUT=1; SUM="hex=a2a54200, dec=2728739328"}; SUM_exp="hex=a2a54200, dec=2728739328"; status= TRUE}
+A="hex=132bf48d,dec= 321647757"; B="hex=09cd0a48, dec= 164432456"; overflow=0; {COUT=0; SUM="hex=1cf8fed5, dec= 486080213"}; SUM_exp="hex=1cf8fed5, dec= 486080213"; status= TRUE}
+A="hex=0c1950fa,dec= 202985722"; B="hex=7603e18b, dec=1979965835"; overflow=1; {COUT=0; SUM="hex=821d3285, dec=2182951557"}; SUM_exp="hex=821d3285, dec=2182951557"; status= TRUE}
+A="hex=331ae878,dec= 857401464"; B="hex=32ad2085, dec= 850206853"; overflow=0; {COUT=0; SUM="hex=65c808fd, dec=1707608317"}; SUM_exp="hex=65c808fd, dec=1707608317"; status= TRUE}
+A="hex=d2c6d07b,dec=3536244859"; B="hex=8706ced3, dec=2265370323"; overflow=1; {COUT=1; SUM="hex=59cd9f4e, dec=1506647886"}; SUM_exp="hex=59cd9f4e, dec=1506647886"; status= TRUE}
+A="hex=48d104a8,dec=1221657768"; B="hex=aab2d5b3, dec=2863846835"; overflow=0; {COUT=0; SUM="hex=f383da5b, dec=4085504603"}; SUM_exp="hex=f383da5b, dec=4085504603"; status= TRUE}
+A="hex=19e0c8c5,dec= 434161861"; B="hex=b6b271bd, dec=3065147837"; overflow=0; {COUT=0; SUM="hex=d0933a82, dec=3499309698"}; SUM_exp="hex=d0933a82, dec=3499309698"; status= TRUE}
+A="hex=1cf7abd1,dec= 485993425"; B="hex=7559f087, dec=1968828551"; overflow=1; {COUT=0; SUM="hex=92519c58, dec=2454821976"}; SUM_exp="hex=92519c58, dec=2454821976"; status= TRUE}
+A="hex=4edeeea0,dec=1323232928"; B="hex=76eccc8a, dec=1995230346"; overflow=1; {COUT=0; SUM="hex=c5cbbb2a, dec=3318463274"}; SUM_exp="hex=c5cbbb2a, dec=3318463274"; status= TRUE}
+A="hex=ca55f44b,dec=3394630731"; B="hex=8d28b1ef, dec=2368254447"; overflow=1; {COUT=1; SUM="hex=577ea63a, dec=1467917882"}; SUM_exp="hex=577ea63a, dec=1467917882"; status= TRUE}
+A="hex=3039625d,dec= 809067101"; B="hex=e3e4eb1e, dec=3823430430"; overflow=0; {COUT=1; SUM="hex=141e4d7b, dec= 337530235"}; SUM_exp="hex=141e4d7b, dec= 337530235"; status= TRUE}
+A="hex=915b3bf9,dec=2438675449"; B="hex=4dbb48a5, dec=1304119461"; overflow=0; {COUT=0; SUM="hex=df16849e, dec=3742794910"}; SUM_exp="hex=df16849e, dec=3742794910"; status= TRUE}
+A="hex=bce706c4,dec=3169257156"; B="hex=42a309b4, dec=1117981108"; overflow=0; {COUT=0; SUM="hex=ff8a1078, dec=4287238264"}; SUM_exp="hex=ff8a1078, dec=4287238264"; status= TRUE}
+A="hex=ffa6fc54,dec=4289133652"; B="hex=b418034d, dec=3021472589"; overflow=0; {COUT=1; SUM="hex=b3beffa1, dec=3015638945"}; SUM_exp="hex=b3beffa1, dec=3015638945"; status= TRUE}
+A="hex=81dbb4f3,dec=2178659571"; B="hex=5b17a704, dec=1528276740"; overflow=0; {COUT=0; SUM="hex=dcf35bf7, dec=3706936311"}; SUM_exp="hex=dcf35bf7, dec=3706936311"; status= TRUE}
+A="hex=fb912698,dec=4220593816"; B="hex=2b511bd0, dec= 726735824"; overflow=0; {COUT=1; SUM="hex=26e24268, dec= 652362344"}; SUM_exp="hex=26e24268, dec= 652362344"; status= TRUE}
+A="hex=59a227e0,dec=1503799264"; B="hex=3caf3ad1, dec=1018116817"; overflow=1; {COUT=0; SUM="hex=965162b1, dec=2521916081"}; SUM_exp="hex=965162b1, dec=2521916081"; status= TRUE}
+A="hex=64f34334,dec=1693664052"; B="hex=eb674636, dec=3949413942"; overflow=0; {COUT=1; SUM="hex=505a896a, dec=1348110698"}; SUM_exp="hex=505a896a, dec=1348110698"; status= TRUE}
+A="hex=d54a956c,dec=3578434924"; B="hex=6acf3934, dec=1791965492"; overflow=0; {COUT=1; SUM="hex=4019cea0, dec=1075433120"}; SUM_exp="hex=4019cea0, dec=1075433120"; status= TRUE}
+A="hex=2e0c59f4,dec= 772561396"; B="hex=0320f44a, dec=  52491338"; overflow=0; {COUT=0; SUM="hex=312d4e3e, dec= 825052734"}; SUM_exp="hex=312d4e3e, dec= 825052734"; status= TRUE}
+A="hex=4f432b6f,dec=1329802095"; B="hex=80057b31, dec=2147842865"; overflow=0; {COUT=0; SUM="hex=cf48a6a0, dec=3477644960"}; SUM_exp="hex=cf48a6a0, dec=3477644960"; status= TRUE}
+A="hex=480e8860,dec=1208911968"; B="hex=f6c6384a, dec=4140185674"; overflow=0; {COUT=1; SUM="hex=3ed4c0aa, dec=1054130346"}; SUM_exp="hex=3ed4c0aa, dec=1054130346"; status= TRUE}
+A="hex=2475c72f,dec= 611698479"; B="hex=cca10725, dec=3433105189"; overflow=0; {COUT=0; SUM="hex=f116ce54, dec=4044803668"}; SUM_exp="hex=f116ce54, dec=4044803668"; status= TRUE}
+A="hex=6a06df21,dec=1778835233"; B="hex=9b477f8a, dec=2605154186"; overflow=0; {COUT=1; SUM="hex=054e5eab, dec=  89022123"}; SUM_exp="hex=054e5eab, dec=  89022123"; status= TRUE}
+A="hex=64bae949,dec=1689971017"; B="hex=786720f3, dec=2020024563"; overflow=1; {COUT=0; SUM="hex=dd220a3c, dec=3709995580"}; SUM_exp="hex=dd220a3c, dec=3709995580"; status= TRUE}
+A="hex=1a93e5a0,dec= 445900192"; B="hex=c0712613, dec=3228640787"; overflow=0; {COUT=0; SUM="hex=db050bb3, dec=3674540979"}; SUM_exp="hex=db050bb3, dec=3674540979"; status= TRUE}
+A="hex=74a35c79,dec=1956863097"; B="hex=896e0914, dec=2305689876"; overflow=0; {COUT=0; SUM="hex=fe11658d, dec=4262552973"}; SUM_exp="hex=fe11658d, dec=4262552973"; status= TRUE}
+A="hex=8b47bae2,dec=2336733922"; B="hex=20c0b3ba, dec= 549499834"; overflow=0; {COUT=0; SUM="hex=ac086e9c, dec=2886233756"}; SUM_exp="hex=ac086e9c, dec=2886233756"; status= TRUE}
+A="hex=23d6ca46,dec= 601279046"; B="hex=7a4d9aa7, dec=2051906215"; overflow=1; {COUT=0; SUM="hex=9e2464ed, dec=2653185261"}; SUM_exp="hex=9e2464ed, dec=2653185261"; status= TRUE}
+A="hex=9c94c6c1,dec=2626995905"; B="hex=5454e526, dec=1414849830"; overflow=0; {COUT=0; SUM="hex=f0e9abe7, dec=4041845735"}; SUM_exp="hex=f0e9abe7, dec=4041845735"; status= TRUE}
+A="hex=1641170c,dec= 373364492"; B="hex=cb4d79bf, dec=3410852287"; overflow=0; {COUT=0; SUM="hex=e18e90cb, dec=3784216779"}; SUM_exp="hex=e18e90cb, dec=3784216779"; status= TRUE}
+A="hex=64c9ee0d,dec=1690955277"; B="hex=e691badd, dec=3868310237"; overflow=0; {COUT=1; SUM="hex=4b5ba8ea, dec=1264298218"}; SUM_exp="hex=4b5ba8ea, dec=1264298218"; status= TRUE}
+A="hex=7d0f4aba,dec=2098154170"; B="hex=e0b66e80, dec=3770052224"; overflow=0; {COUT=1; SUM="hex=5dc5b93a, dec=1573239098"}; SUM_exp="hex=5dc5b93a, dec=1573239098"; status= TRUE}
+A="hex=c9b3837f,dec=3383985023"; B="hex=4fe59318, dec=1340445464"; overflow=0; {COUT=1; SUM="hex=19991697, dec= 429463191"}; SUM_exp="hex=19991697, dec= 429463191"; status= TRUE}
+A="hex=1942f6ab,dec= 423818923"; B="hex=04ecdf7b, dec=  82632571"; overflow=0; {COUT=0; SUM="hex=1e2fd626, dec= 506451494"}; SUM_exp="hex=1e2fd626, dec= 506451494"; status= TRUE}
+A="hex=2aafd0e3,dec= 716165347"; B="hex=5a60dd2c, dec=1516297516"; overflow=1; {COUT=0; SUM="hex=8510ae0f, dec=2232462863"}; SUM_exp="hex=8510ae0f, dec=2232462863"; status= TRUE}
+A="hex=77b9e606,dec=2008671750"; B="hex=7f3a619e, dec=2134532510"; overflow=1; {COUT=0; SUM="hex=f6f447a4, dec=4143204260"}; SUM_exp="hex=f6f447a4, dec=4143204260"; status= TRUE}
+A="hex=9948d96e,dec=2571688302"; B="hex=a05c0b80, dec=2690386816"; overflow=1; {COUT=1; SUM="hex=39a4e4ee, dec= 967107822"}; SUM_exp="hex=39a4e4ee, dec= 967107822"; status= TRUE}
+A="hex=41693b90,dec=1097415568"; B="hex=90b9132e, dec=2428048174"; overflow=0; {COUT=0; SUM="hex=d2224ebe, dec=3525463742"}; SUM_exp="hex=d2224ebe, dec=3525463742"; status= TRUE}
+A="hex=ce1bd8f9,dec=3457931513"; B="hex=6deefde6, dec=1844379110"; overflow=0; {COUT=1; SUM="hex=3c0ad6df, dec=1007343327"}; SUM_exp="hex=3c0ad6df, dec=1007343327"; status= TRUE}
+A="hex=90164cb1,dec=2417380529"; B="hex=169b9369, dec= 379294569"; overflow=0; {COUT=0; SUM="hex=a6b1e01a, dec=2796675098"}; SUM_exp="hex=a6b1e01a, dec=2796675098"; status= TRUE}
+A="hex=eb01968b,dec=3942749835"; B="hex=e9ba26b4, dec=3921290932"; overflow=0; {COUT=1; SUM="hex=d4bbbd3f, dec=3569073471"}; SUM_exp="hex=d4bbbd3f, dec=3569073471"; status= TRUE}
+A="hex=927da28e,dec=2457707150"; B="hex=f03101a7, dec=4029743527"; overflow=0; {COUT=1; SUM="hex=82aea435, dec=2192483381"}; SUM_exp="hex=82aea435, dec=2192483381"; status= TRUE}
+A="hex=d13b0699,dec=3510306457"; B="hex=90fae4d5, dec=2432361685"; overflow=1; {COUT=1; SUM="hex=6235eb6e, dec=1647700846"}; SUM_exp="hex=6235eb6e, dec=1647700846"; status= TRUE}
+A="hex=02a3fce8,dec=  44301544"; B="hex=4e3ef6be, dec=1312749246"; overflow=0; {COUT=0; SUM="hex=50e2f3a6, dec=1357050790"}; SUM_exp="hex=50e2f3a6, dec=1357050790"; status= TRUE}
+A="hex=4d53f3a5,dec=1297347493"; B="hex=a3ed8002, dec=2750251010"; overflow=0; {COUT=0; SUM="hex=f14173a7, dec=4047598503"}; SUM_exp="hex=f14173a7, dec=4047598503"; status= TRUE}
+A="hex=db70d42e,dec=3681604654"; B="hex=01c53495, dec=  29701269"; overflow=0; {COUT=0; SUM="hex=dd3608c3, dec=3711305923"}; SUM_exp="hex=dd3608c3, dec=3711305923"; status= TRUE}
+A="hex=786cd5cf,dec=2020398543"; B="hex=1509c8d6, dec= 352962774"; overflow=1; {COUT=0; SUM="hex=8d769ea5, dec=2373361317"}; SUM_exp="hex=8d769ea5, dec=2373361317"; status= TRUE}
+A="hex=f4b678da,dec=4105599194"; B="hex=72513b91, dec=1917926289"; overflow=0; {COUT=1; SUM="hex=6707b46b, dec=1728558187"}; SUM_exp="hex=6707b46b, dec=1728558187"; status= TRUE}
+A="hex=cf4dc045,dec=3477979205"; B="hex=e5dff83b, dec=3856660539"; overflow=0; {COUT=1; SUM="hex=b52db880, dec=3039672448"}; SUM_exp="hex=b52db880, dec=3039672448"; status= TRUE}
+A="hex=bdd3d463,dec=3184776291"; B="hex=59d3cc2f, dec=1507052591"; overflow=0; {COUT=1; SUM="hex=17a7a092, dec= 396861586"}; SUM_exp="hex=17a7a092, dec= 396861586"; status= TRUE}
+A="hex=f14eb74c,dec=4048467788"; B="hex=f1a92fbd, dec=4054396861"; overflow=0; {COUT=1; SUM="hex=e2f7e709, dec=3807897353"}; SUM_exp="hex=e2f7e709, dec=3807897353"; status= TRUE}
+A="hex=14e9a301,dec= 350855937"; B="hex=9c38489d, dec=2620934301"; overflow=0; {COUT=0; SUM="hex=b121eb9e, dec=2971790238"}; SUM_exp="hex=b121eb9e, dec=2971790238"; status= TRUE}
+A="hex=275aa209,dec= 660251145"; B="hex=ffc27783, dec=4290934659"; overflow=0; {COUT=1; SUM="hex=271d198c, dec= 656218508"}; SUM_exp="hex=271d198c, dec= 656218508"; status= TRUE}
+A="hex=09e0873c,dec= 165709628"; B="hex=9557a293, dec=2505548435"; overflow=0; {COUT=0; SUM="hex=9f3829cf, dec=2671258063"}; SUM_exp="hex=9f3829cf, dec=2671258063"; status= TRUE}
+A="hex=d198ca88,dec=3516451464"; B="hex=a0edb77e, dec=2699933566"; overflow=1; {COUT=1; SUM="hex=72868206, dec=1921417734"}; SUM_exp="hex=72868206, dec=1921417734"; status= TRUE}
+A="hex=c15b7ca8,dec=3243998376"; B="hex=15333c28, dec= 355679272"; overflow=0; {COUT=0; SUM="hex=d68eb8d0, dec=3599677648"}; SUM_exp="hex=d68eb8d0, dec=3599677648"; status= TRUE}
+A="hex=3ca72dcf,dec=1017589199"; B="hex=aedb55fc, dec=2933609980"; overflow=0; {COUT=0; SUM="hex=eb8283cb, dec=3951199179"}; SUM_exp="hex=eb8283cb, dec=3951199179"; status= TRUE}
+A="hex=5f1c111a,dec=1595674906"; B="hex=35f4be2d, dec= 905231917"; overflow=1; {COUT=0; SUM="hex=9510cf47, dec=2500906823"}; SUM_exp="hex=9510cf47, dec=2500906823"; status= TRUE}
+A="hex=a8d7a7aa,dec=2832705450"; B="hex=09829eb4, dec= 159555252"; overflow=0; {COUT=0; SUM="hex=b25a465e, dec=2992260702"}; SUM_exp="hex=b25a465e, dec=2992260702"; status= TRUE}
+A="hex=5a07d5d7,dec=1510462935"; B="hex=9d8c3d53, dec=2643213651"; overflow=0; {COUT=0; SUM="hex=f794132a, dec=4153676586"}; SUM_exp="hex=f794132a, dec=4153676586"; status= TRUE}
+A="hex=99c48fb8,dec=2579795896"; B="hex=223cdbed, dec= 574413805"; overflow=0; {COUT=0; SUM="hex=bc016ba5, dec=3154209701"}; SUM_exp="hex=bc016ba5, dec=3154209701"; status= TRUE}
+A="hex=c96d728f,dec=3379393167"; B="hex=89dc1ec1, dec=2312904385"; overflow=1; {COUT=1; SUM="hex=53499150, dec=1397330256"}; SUM_exp="hex=53499150, dec=1397330256"; status= TRUE}
+A="hex=679cc03e,dec=1738326078"; B="hex=e0e8b9cf, dec=3773348303"; overflow=0; {COUT=1; SUM="hex=48857a0d, dec=1216707085"}; SUM_exp="hex=48857a0d, dec=1216707085"; status= TRUE}
+A="hex=78d8c3f2,dec=2027471858"; B="hex=57ac777f, dec=1470920575"; overflow=1; {COUT=0; SUM="hex=d0853b71, dec=3498392433"}; SUM_exp="hex=d0853b71, dec=3498392433"; status= TRUE}
+A="hex=0aafb3f9,dec= 179287033"; B="hex=a572da76, dec=2775767670"; overflow=0; {COUT=0; SUM="hex=b0228e6f, dec=2955054703"}; SUM_exp="hex=b0228e6f, dec=2955054703"; status= TRUE}
+A="hex=a9790ae7,dec=2843282151"; B="hex=6b411a86, dec=1799428742"; overflow=0; {COUT=1; SUM="hex=14ba256d, dec= 347743597"}; SUM_exp="hex=14ba256d, dec= 347743597"; status= TRUE}
+A="hex=b6fd05e3,dec=3070035427"; B="hex=8b58f21b, dec=2337862171"; overflow=1; {COUT=1; SUM="hex=4255f7fe, dec=1112930302"}; SUM_exp="hex=4255f7fe, dec=1112930302"; status= TRUE}
+A="hex=66241a60,dec=1713642080"; B="hex=1decf425, dec= 502068261"; overflow=1; {COUT=0; SUM="hex=84110e85, dec=2215710341"}; SUM_exp="hex=84110e85, dec=2215710341"; status= TRUE}
+A="hex=63673868,dec=1667709032"; B="hex=42e72970, dec=1122445680"; overflow=1; {COUT=0; SUM="hex=a64e61d8, dec=2790154712"}; SUM_exp="hex=a64e61d8, dec=2790154712"; status= TRUE}
+A="hex=88fe528f,dec=2298368655"; B="hex=3d948d42, dec=1033145666"; overflow=0; {COUT=0; SUM="hex=c692dfd1, dec=3331514321"}; SUM_exp="hex=c692dfd1, dec=3331514321"; status= TRUE}
+A="hex=5d8d1c69,dec=1569528937"; B="hex=ffab287b, dec=4289407099"; overflow=0; {COUT=1; SUM="hex=5d3844e4, dec=1563968740"}; SUM_exp="hex=5d3844e4, dec=1563968740"; status= TRUE}
+A="hex=3ecc6899,dec=1053583513"; B="hex=2a1a2630, dec= 706356784"; overflow=0; {COUT=0; SUM="hex=68e68ec9, dec=1759940297"}; SUM_exp="hex=68e68ec9, dec=1759940297"; status= TRUE}
+A="hex=5c02f835,dec=1543698485"; B="hex=d70c16d6, dec=3607893718"; overflow=0; {COUT=1; SUM="hex=330f0f0b, dec= 856624907"}; SUM_exp="hex=330f0f0b, dec= 856624907"; status= TRUE}
+A="hex=ae9f0769,dec=2929657705"; B="hex=37d6b47b, dec= 936817787"; overflow=0; {COUT=0; SUM="hex=e675bbe4, dec=3866475492"}; SUM_exp="hex=e675bbe4, dec=3866475492"; status= TRUE}
+A="hex=87df0f6d,dec=2279542637"; B="hex=01506fdc, dec=  22048732"; overflow=0; {COUT=0; SUM="hex=892f7f49, dec=2301591369"}; SUM_exp="hex=892f7f49, dec=2301591369"; status= TRUE}
+A="hex=cd099fc0,dec=3439960000"; B="hex=20227c8e, dec= 539131022"; overflow=0; {COUT=0; SUM="hex=ed2c1c4e, dec=3979091022"}; SUM_exp="hex=ed2c1c4e, dec=3979091022"; status= TRUE}
+A="hex=2d760445,dec= 762709061"; B="hex=c1397338, dec=3241767736"; overflow=0; {COUT=0; SUM="hex=eeaf777d, dec=4004476797"}; SUM_exp="hex=eeaf777d, dec=4004476797"; status= TRUE}
+A="hex=be9c9d91,dec=3197934993"; B="hex=f7e719cc, dec=4159117772"; overflow=0; {COUT=1; SUM="hex=b683b75d, dec=3062085469"}; SUM_exp="hex=b683b75d, dec=3062085469"; status= TRUE}
+A="hex=cb5332d3,dec=3411227347"; B="hex=542cf7e5, dec=1412233189"; overflow=0; {COUT=1; SUM="hex=1f802ab8, dec= 528493240"}; SUM_exp="hex=1f802ab8, dec= 528493240"; status= TRUE}
+A="hex=a70fdf22,dec=2802835234"; B="hex=f475f61f, dec=4101371423"; overflow=0; {COUT=1; SUM="hex=9b85d541, dec=2609239361"}; SUM_exp="hex=9b85d541, dec=2609239361"; status= TRUE}
+A="hex=663476ea,dec=1714714346"; B="hex=cef10e91, dec=3471904401"; overflow=0; {COUT=1; SUM="hex=3525857b, dec= 891651451"}; SUM_exp="hex=3525857b, dec= 891651451"; status= TRUE}
+A="hex=252dd75b,dec= 623761243"; B="hex=6999c2b1, dec=1771684529"; overflow=1; {COUT=0; SUM="hex=8ec79a0c, dec=2395445772"}; SUM_exp="hex=8ec79a0c, dec=2395445772"; status= TRUE}
+A="hex=ad2b8073,dec=2905309299"; B="hex=e8a34d93, dec=3903016339"; overflow=0; {COUT=1; SUM="hex=95cece06, dec=2513358342"}; SUM_exp="hex=95cece06, dec=2513358342"; status= TRUE}
+A="hex=f6725c50,dec=4134689872"; B="hex=9fe26e96, dec=2682416790"; overflow=0; {COUT=1; SUM="hex=9654cae6, dec=2522139366"}; SUM_exp="hex=9654cae6, dec=2522139366"; status= TRUE}
+A="hex=a9adc6d8,dec=2846738136"; B="hex=5b7bda09, dec=1534843401"; overflow=0; {COUT=1; SUM="hex=0529a0e1, dec=  86614241"}; SUM_exp="hex=0529a0e1, dec=  86614241"; status= TRUE}
+A="hex=26a36d69,dec= 648244585"; B="hex=bc008f33, dec=3154153267"; overflow=0; {COUT=0; SUM="hex=e2a3fc9c, dec=3802397852"}; SUM_exp="hex=e2a3fc9c, dec=3802397852"; status= TRUE}
+A="hex=2d97089c,dec= 764872860"; B="hex=efba5858, dec=4021966936"; overflow=0; {COUT=1; SUM="hex=1d5160f4, dec= 491872500"}; SUM_exp="hex=1d5160f4, dec= 491872500"; status= TRUE}
+A="hex=dcf90a64,dec=3707308644"; B="hex=8d5c3522, dec=2371630370"; overflow=1; {COUT=1; SUM="hex=6a553f86, dec=1783971718"}; SUM_exp="hex=6a553f86, dec=1783971718"; status= TRUE}
+A="hex=70dea889,dec=1893640329"; B="hex=8c307d6b, dec=2351988075"; overflow=0; {COUT=0; SUM="hex=fd0f25f4, dec=4245628404"}; SUM_exp="hex=fd0f25f4, dec=4245628404"; status= TRUE}
+A="hex=5be44c8d,dec=1541688461"; B="hex=a7b38e9b, dec=2813562523"; overflow=0; {COUT=1; SUM="hex=0397db28, dec=  60283688"}; SUM_exp="hex=0397db28, dec=  60283688"; status= TRUE}
+A="hex=81c92351,dec=2177442641"; B="hex=bb3847dd, dec=3141027805"; overflow=1; {COUT=1; SUM="hex=3d016b2e, dec=1023503150"}; SUM_exp="hex=3d016b2e, dec=1023503150"; status= TRUE}
+A="hex=14e3306d,dec= 350433389"; B="hex=f965cb26, dec=4184197926"; overflow=0; {COUT=1; SUM="hex=0e48fb93, dec= 239664019"}; SUM_exp="hex=0e48fb93, dec= 239664019"; status= TRUE}
