@@ -56,11 +56,12 @@ module KSA32_tb;
             // Wait for the results
             #10;
 
-            // Write results to output file and TCL CONSOLE as well
-            $fdisplay(fd_out, "A=\"hex=%h, dec=%d\"; B=\"hex=%h, dec=%d\"; SUM=\"hex=%h, dec=%d\"; SUM_exp=\"hex=%h, dec=%d\"; status=%s\n",
-                A, A, B, B, SUM, SUM, SUM_exp, SUM_exp, (SUM == SUM_exp) ? "TRUE" : "FALSE");
-            $display("A=\"hex=%h, dec=%d\"; B=\"hex=%h, dec=%d\"; SUM=\"hex=%h, dec=%d\"; SUM_exp=\"hex=%h, dec=%d\"; status=%s",
-                A, A, B, B, SUM, SUM, SUM_exp, SUM_exp, (SUM == SUM_exp) ? "TRUE" : "FALSE");
+            // Write results to output file and TCL console as well
+
+            $fdisplay(fd_out, "A=\"hex=%h,dec=%d\"; B=\"hex=%h, dec=%d\"; overflow=%b; {COUT=%b; SUM=\"hex=%h, dec=%d\"}; SUM_exp=\"hex=%h, dec=%d\"; status=%s}",
+                A, A, B, B, overflow, COUT, SUM, SUM, SUM_exp, SUM_exp, (SUM == SUM_exp) ? "TRUE" : "FALSE");
+            $display("A=\"hex=%h,dec=%d\"; B=\"hex=%h, dec=%d\"; overflow=%b; {COUT=%b; SUM=\"hex=%h, dec=%d\"}; SUM_exp=\"hex=%h, dec=%d\"; status=%s}",
+                A, A, B, B, overflow, COUT, SUM, SUM, SUM_exp, SUM_exp, (SUM == SUM_exp) ? "TRUE" : "FALSE");
 
         end
 
